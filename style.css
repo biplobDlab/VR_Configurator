@@ -1,0 +1,171 @@
+.fullFrameContainer {
+  width: 100%;
+  font-family: 'Encode Sans';
+}
+
+.modelviewer {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: auto;
+}
+
+.controlviewer {
+  background-color: #131B26;
+}
+
+.pageBackground {
+  background-color: #131B26;
+}
+
+.title {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+
+.subTitle {
+  text-align: left;
+  text-decoration: solid;
+  font-size: 28px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.subTitle2 {
+  text-align: left;
+  text-decoration: solid;
+  font-size: 24px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+.texture-button {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  aspect-ratio: 1;
+}
+
+.color-button {
+
+  height: 60px;
+  width: 60px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  margin: 10px;
+  display: flexbox;
+
+}
+.buttonContainer
+{
+  margin-bottom: 20px;
+}
+
+
+.v1
+{
+  background-color: #00607B;
+}
+.v2
+{
+  background-color: #404950;;
+}
+.v3
+{
+  background-color: #E8E8E8;
+}
+.t1
+{
+  background-color: #e5cfaa;
+}
+.t2
+{
+  background-color: #454545;
+
+}
+.t3
+{
+  background-color: #e9e9e9;
+
+}
+
+.tabbuttonView {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) 
+{
+  .title
+  {
+    font-size: 28px;
+  }
+  .subTitle {
+    font-size: 24px;
+  }
+  .subTitle2 {
+    font-size: 22px;
+  }
+  .texture-button {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+  }
+  .color-button {
+
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  
+  .title
+  {
+    font-size: 24px;
+  }
+  .subTitle {
+    font-size: 22px;
+  }
+  .subTitle2 {
+    font-size: 20px;
+  }
+  .texture-button {
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+  }
+  .color-button {
+
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+
+  }
+}
+
+/* @media screen and (max-width: 991px) {
+
+  
+}
+
+@media screen and (max-width: 767px) {
+
+  
+}
+
+@media screen and (max-width: 479px) {
+
+} */
+.viewer .controls .general-controls .control {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
