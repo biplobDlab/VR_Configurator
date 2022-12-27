@@ -135,14 +135,13 @@ configData.success = function success(api) {
 
           for (const name in Objects) {
             for (const node in nodesList) {
-              if (Objects[name].object === null && nodesList[node].name === name) 
-              {
+              if (Objects[name].object === null && nodesList[node].name === name) {
                 Objects[name].object = nodesList[node].instanceID;
                 console.log(nodesList[node].instanceID);
               }
             }
           }
-          
+
         }
       });
       //geting all matrials form object
@@ -256,17 +255,13 @@ function ActivateObjects(button) {
 
     console.log(id, button.id);
 
-    if (id === button.id) 
-    {
-      s_api.show(Objects[id].object,function()
-      {        
+    if (id === button.id) {
+      s_api.show(Objects[id].object, function () {
 
       });
     }
-    else 
-    {
-      s_api.hide(Objects[id].object, function()
-      {        
+    else {
+      s_api.hide(Objects[id].object, function () {
 
       });
     }
