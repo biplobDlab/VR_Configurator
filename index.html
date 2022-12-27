@@ -22,89 +22,99 @@
   <!-- <title>Hello, world!</title> -->
 </head>
 
-<body >
+<body>
   <div class="fullFrameContainer ">
     <div class="row d-flex justify-content-center mx-1 ">
-      <!-- Collors view -->
-      <div class="controlviewer d-sm-none d-md-none d-lg-block col-xxl-3 col-xl-3 col-lg-3 pt-xl-5 pt-lg-1">
-        <div class="row text-center pt-xl-3 pt-lg-3">
+      <!-- Collors view    /*d-sm-none d-md-none d-lg-block*/ -->
+      <div class="controlviewer col-xxl-3 col-xl-3 col-lg-3 pt-xl-5 pt-lg-1">
+        <div class="Controls_Buttons d-none">
 
-          <p class="title">VR Configurator</p>
-        </div>
-        <div class="row ">
-          <p class="subTitle">Room color</p>
-          <hr style="color: aliceblue; ">
-          <div class="row mx-1">
-            <p class="subTitle2">Floor</p>
-            <div class="d-flex buttonContainer">
-              <button id="texture1" class="texture-button t1" style="border: solid 5px rgba(255, 255, 255, 1);"
-                onclick="textureCheck(this)" >
-              </button>
-              <button id="texture2" class="texture-button t2" style="border: solid 5px rgba(255, 255, 255,0);"
-                onclick="textureCheck(this)" >
-              </button>
-              <button id="texture3" class="texture-button t3" style="border: solid 5px rgba(255, 255, 255,0);"
-                onclick="textureCheck(this)" >
-              </button>
-            </div>
-            <p class="subTitle2">Wall</p>
-            <div class="d-flex buttonContainer">
+          <div class="row text-center pt-xl-3 pt-lg-3">
 
-              <button id="Blue1" class="color-button v1" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 1);" onclick="colorCheck(this)" color='#00607B' bg = "#31444C">
-                
-              </button>
-              <button id="Gray1" class="color-button v2" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#404950' bg = "#404950">
-                
-              </button>
-              <button id="White1" class="color-button v3" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#E8E8E8' bg = "#FFFFFF">
-              </button>
+            <p class="title">VR Configurator</p>
+          </div>
+          <div class="row ">
+            <p class="subTitle">Room color</p>
+            <hr style="color: aliceblue; ">
+            <div class="row mx-1">
+              <p class="subTitle2">Floor</p>
+              <div class="d-flex buttonContainer">
+                <button id="Floor1" class="texture-button t1" style="border: solid 5px rgba(255, 255, 255, 1);"
+                  onclick="FloorCheck(this)">
+                </button>
+                <button id="Floor2" class="texture-button t2" style="border: solid 5px rgba(255, 255, 255,0);"
+                  onclick="FloorCheck(this)">
+                </button>
+                <button id="Floor3" class="texture-button t3" style="border: solid 5px rgba(255, 255, 255,0);"
+                  onclick="FloorCheck(this)">
+                </button>
+              </div>
+              <p class="subTitle2">Wall</p>
+              <div class="d-flex buttonContainer">
+
+                <button id="Wall1" class="color-button v1 Wall" type="button" onclick="wallCheck(this)"
+                  style="border: solid 3px rgba(255, 255, 255, 1);">
+
+                </button>
+                <button id="Wall2" class="color-button v2 Wall" type="button" onclick="wallCheck(this)"
+                  style="border: solid 3px rgba(255, 255, 255, 0);" >
+
+                </button>
+                <button id="Wall3" class="color-button v3 Wall" type="button" onclick="wallCheck(this)"
+                  style="border: solid 3px rgba(255, 255, 255, 0);" >
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <p class="subTitle">Object Change</p>
-          <hr style="color: aliceblue; ">
-          <div class="row mx-1">
+          <div class="row">
+            <p class="subTitle">Object Change</p>
+            <hr style="color: aliceblue; ">
+            <div class="row mx-1">
 
-            <p class="subTitle2">Chair</p>
-            <div class="d-flex buttonContainer">
-              <button id="texture1" class="texture-button t1" style="border: solid 5px rgba(255, 255, 255, 1);"
-                onclick="textureCheck(this)" >
-              </button>
-              <button id="texture2" class="texture-button t2" style="border: solid 5px rgba(255, 255, 255,0);"
-                onclick="textureCheck(this)" >
-              </button>
-              <button id="texture3" class="texture-button t3" style="border: solid 5px rgba(255, 255, 255,0);"
-                onclick="textureCheck(this)" >
-              </button>
-            </div>
-            <p class="subTitle2 ">Table</p>
-            <div class="d-flex buttonContainer">
+              <p class="subTitle2">Chair</p>
+              <div class="d-flex buttonContainer">
+                <button id="Couch_1" class="texture-button t1" style="border: solid 5px rgba(255, 255, 255, 1);"
+                  onclick="ActivateObjects(this)">
+                </button>
+                <button id="Couch_2" class="texture-button t2" style="border: solid 5px rgba(255, 255, 255,0);"
+                  onclick="ActivateObjects(this)">
+                </button>
+                <!-- <button id="Couch_1" class="texture-button t3" style="border: solid 5px rgba(255, 255, 255,0);"
+                  onclick="ActivateObjects(this)">
+                </button> -->
+              </div>
+              <!-- <p class="subTitle2 ">Table</p>
+              <div class="d-flex buttonContainer">
 
-              <button id="Blue1" class="color-button v1" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 1);" onclick="colorCheck(this)" color='#00607B' bg = "#31444C">
-                
-              </button>
-              <button id="Gray1" class="color-button v2" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#404950' bg = "#404950">
-                
-              </button>
-              <button id="White1" class="color-button v3" type="button"
-                style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#E8E8E8' bg = "#FFFFFF">
-              </button>
+                <button id="Blue1" class="color-button v1" type="button"
+                  style="border: solid 3px rgba(255, 255, 255, 1);" onclick="colorCheck(this)" color='#00607B'
+                  bg="#31444C">
+
+                </button>
+                <button id="Gray1" class="color-button v2" type="button"
+                  style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#404950'
+                  bg="#404950">
+
+                </button>
+                <button id="White1" class="color-button v3" type="button"
+                  style="border: solid 3px rgba(255, 255, 255, 0);" onclick="colorCheck(this)" color='#E8E8E8'
+                  bg="#FFFFFF">
+                </button>
+              </div> -->
             </div>
           </div>
-        </div>
-            
+
         </div>
 
-      <div class="d-flex flex-column col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 pageBackground">
-         <!-- api viewer  -->
+      </div>
+      <!-- col-md-12 col-sm-12 col-12 -->
+      <div class="d-flex flex-column col-xxl-9 col-xl-9 col-lg-9 pageBackground">
+        <!-- api viewer  -->
         <!-- <p class="text-center title d-xxl-none d-xl-none d-lg-none d-md-block d-sm-block">Configurator</p> -->
-        <iframe title="Sketchfab Viewer" id="api-frame" class="modelviewer" sandbox="allow-scripts allow-same-origin allow-popups allow-forms" allow="xr-spatial-tracking" immersive-vr xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" >
+        <iframe title="Sketchfab Viewer" id="api-frame" class="modelviewer"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-forms" allow="xr-spatial-tracking" immersive-vr
+          xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share allowfullscreen
+          mozallowfullscreen="true" webkitallowfullscreen="true">
         </iframe>
         <!-- Tab view buttons
         <div class="row d-lg-none d-md-block">
@@ -214,19 +224,19 @@
 
       </div> -->
 
+      </div><!-- main filter -->
+
     </div><!-- main filter -->
 
-  </div><!-- main filter -->
+
+    <!-- <script src="modelLoader.js"></script> -->
+    <!-- <script src="SketchfabAPIUtility.js"></script> -->
+    <script src="index.js"></script>
 
 
-  <script src="modelLoader.js"></script>
-  <!-- <script src="SketchfabAPIUtility.js"></script>
-  <script src="index.js"></script> -->
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
