@@ -1,6 +1,6 @@
 //Sketchafab variables
 var version = "1.12.1";
-var uid = 'ee51fcd03b804a6eba5228761f063a48'; //object url id
+var uid = '2dce50a8af5a45629e90b40deded4206'; //object url id
 var iframe = document.querySelector('#api-frame');
 var configData = {
     success: null,
@@ -36,7 +36,7 @@ const walltextureList = {
         url_b: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Diffuse_V2.jpg',
         url_n: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Normal_V2.jpg',
         url_r: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Roughness_V2.jpg',
-        scale: [10, 10],
+        scale: [5, 5],
         uid_b: null,
         uid_n: null,
         uid_r: null
