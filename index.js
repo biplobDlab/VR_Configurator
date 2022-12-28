@@ -24,28 +24,19 @@ var florMat = null;
 
 const walltextureList = {
     'Wall1': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/dark_brick_wall.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/dark_brick_wall/dark_brick_wall_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/dark_brick_wall/dark_brick_wall_disp_1k.jpg',
+        url_b: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Default/Feature_Wall_Base_Color_V1.jpg',
+        url_n: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Default/Feature_Wall_Normal_V1.jpg',
+        url_r: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Default/Feature_Wall_Roughness_V1.jpg',
         scale: [10, 10],
         uid_b: null,
         uid_n: null,
         uid_r: null
     },
     'Wall2': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/hexagonal_concrete_paving.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/hexagonal_concrete_paving/hexagonal_concrete_paving_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/hexagonal_concrete_paving/hexagonal_concrete_paving_disp_1k.jpg',
-        scale: [7, 7],
-        uid_b: null,
-        uid_n: null,
-        uid_r: null
-    },
-    'Wall3': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/square_concrete_pavers.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/square_concrete_pavers/square_concrete_pavers_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/square_concrete_pavers/square_concrete_pavers_disp_1k.jpg',
-        scale: [5, 5],
+        url_b: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Diffuse_V2.jpg',
+        url_n: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Normal_V2.jpg',
+        url_r: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Feature_Wall/Variation/Feature_Wall_Roughness_V2.jpg',
+        scale: [10, 10],
         uid_b: null,
         uid_n: null,
         uid_r: null
@@ -54,32 +45,23 @@ const walltextureList = {
 };
 const floorTextureList = {
     'Floor1': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/dark_brick_wall.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/dark_brick_wall/dark_brick_wall_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/dark_brick_wall/dark_brick_wall_disp_1k.jpg',
+        url_b: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Default/Floor_Interior_Basecolor_V1.jpg',
+        url_n: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Default/Floor_Interior_Normal_V1.jpg',
+        url_r: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Default/Floor_Interior_Roughness_V1.jpg',
         scale: [10, 10],
         uid_b: null,
         uid_n: null,
         uid_r: null
     },
     'Floor2': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/hexagonal_concrete_paving.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/hexagonal_concrete_paving/hexagonal_concrete_paving_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/hexagonal_concrete_paving/hexagonal_concrete_paving_disp_1k.jpg',
-        scale: [7, 7],
-        uid_b: null,
-        uid_n: null,
-        uid_r: null
-    },
-    'Floor3': {
-        url_b: 'https://cdn.polyhaven.com/asset_img/primary/square_concrete_pavers.png',
-        url_n: 'https://cdn.polyhaven.com/asset_img/map_previews/square_concrete_pavers/square_concrete_pavers_nor_gl_1k.jpg',
-        url_r: 'https://cdn.polyhaven.com/asset_img/map_previews/square_concrete_pavers/square_concrete_pavers_disp_1k.jpg',
+        url_b: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Variation/Floor_Interior_Basecolor_V2.jpg',
+        url_n: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Variation/Floor_Interior_Normal_V2.png',
+        url_r: 'https://raw.githubusercontent.com/biplobDlab/VR_Configurator/main/images/Textures/Floor_Interior/Variation/Floor_Interior_Roughness_V2.jpg',
         scale: [5, 5],
         uid_b: null,
         uid_n: null,
         uid_r: null
-    }
+    },
 };
 
 var Objects = {
