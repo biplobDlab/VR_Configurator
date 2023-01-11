@@ -1,3 +1,7 @@
+html body
+{
+    background-color: #131B26;
+}
 .fullFrameContainer {
     width: 100%;
     font-family: 'Encode Sans';
