@@ -1,20 +1,83 @@
 @media (max-width: 576px)
 {
-  body{
-    aspect-ratio: 1/2.5;
-  }
-  .viewerGroup{
-    height: 55%;
+    body{
+      aspect-ratio: 9/22;
+    }
+    .viewerGroup{
+      height: 55%;
+    }
+
+    #inspector{
+      height: 45%;
+    }
+
+    #slideNavigator{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    #arrow{
+      margin-top: 5%;
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #title{
+      margin-top: 2.5%;
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    #rootGroup{
+      margin-left: 5%;
+      width: 90%;
+      height: 30%;
+    }
+    #fittingsGroup{
+      width:100%;
+      height: 100%;
+    }
+
+    #fittingTitle {
+      font-size: 25px;
+    }
+
+  #floorANDwallRoot{
+    width: 100%;
+    height: 75%;
+    margin-left:0%;
+    background: none;
   }
 
-  #inspector{
-    height: 45%;
+  #floorRow{
+    width:50%;
   }
-  #title{
-
-    font-size: 28px;
-    text-align: center;
+  #floorButtons{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #wallRow{ 
+    width:50%;
+  }
+  #wallButtons{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #furnitureRoot{
+    width:100%;
+    height: 100%;
+  }
+  #subTitleFurniture{
+    font-size: 25px;
+  }
+  #furnitureButtons{
+    margin-top: 3%;
 }
+
+  .hide{
+      display: none;
+  }
 }
-
-
