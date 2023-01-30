@@ -1,0 +1,20 @@
+@media (max-width: 576px)
+{
+  body{
+    aspect-ratio: 1/2.5;
+  }
+  .viewerGroup{
+    height: 55%;
+  }
+
+  #inspector{
+    height: 45%;
+  }
+  #title{
+
+    font-size: 28px;
+    text-align: center;
+}
+}
+
+

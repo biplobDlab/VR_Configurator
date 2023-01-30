@@ -1,0 +1,172 @@
+body{
+    background-color: #131B26;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  margin: 0px;
+  aspect-ratio: 16/9;
+}
+.fullFrameContainer{
+    font-family: 'Encode Sans';
+    width: 100%;
+    height: 100%;
+}
+.viewerGroup{
+    width: 100%;
+    height: 65%;
+}
+.modelviewer{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+#inspector{
+    width: 100%;
+    height: 35%;
+}
+
+
+#title{
+    color: #E2B375;
+    text-align: left;
+    text-decoration: solid;
+    font-size: 33px;
+    padding-left: 3%;
+}
+
+#rootGroup{
+    margin-left: 10%;
+    width: 70%;
+    height: 80%;
+}
+#fittingsGroup{
+    width:60%;
+    height: 100%;
+    float: left;
+}
+#fittingTitle {
+    color: white;
+    font-size: 28px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#floorANDwallRoot{
+    width: 90%;
+    height: 75%;
+    margin-left: 10%;
+    background: linear-gradient(to right, transparent calc(100% - 3px),
+                              #C4C4C4, transparent calc(100% + 3px));
+}
+
+#floorRow{
+    float: left;
+    width:45%;
+    height: 100%;
+
+}
+#subTitleFloor {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#floorButtons{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Floor1{
+    float: left;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,1);
+}
+
+#Floor2{
+    float: right;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,0); 
+}
+
+#wallRow{ 
+    float: left;
+    width:45%;
+   height: 100%;
+}
+#subTitleWall {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#wallButtons{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#Wall1 {
+    float: left;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,1);
+}
+#Wall2 {
+    float: right;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,0);
+}
+#furnitureRoot{
+    width: 35%;
+    height: 80%;
+    float: right;
+}
+#furnitureRow{
+  
+    width: 100%;
+    height: 90%;
+}
+
+#subTitleFurniture{
+    color: white;
+    font-size: 28px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 0px;
+}
+#subTitleChair{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#furnitureButtons{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 45%;
+}
+
+#Couch_1 {
+    float: left;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,1);
+}
+#Couch_2 {
+    float: right;
+    width:  45%;
+    aspect-ratio: 1;
+    border: solid 3px rgba(255, 124, 17,1);
+}
+.texture-button img {
+    width:  100%;
+    aspect-ratio: 1;
+}
+
+
+
+
+
