@@ -160,11 +160,11 @@ body{
     aspect-ratio: 1;
     border: solid 3px rgba(255, 124, 17,1);
 }
-.texture-button img {
-    width:  100%;
-    aspect-ratio: 1;
+
+.texture-button{
+    background-size: 100%;
 }
 #arrow{
     display: none;
-  }
+}
 
