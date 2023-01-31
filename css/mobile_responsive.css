@@ -43,15 +43,19 @@
       font-size: 25px;
     }
 
-  #floorANDwallRoot{
+  #floorANDwallRoot{ 
+    margin-top: 5%;
     width: 100%;
-    height: 75%;
+    height: 90%;
     margin-left:0%;
-    background: none;
+    background: none;;
+
   }
 
   #floorRow{
     width:50%;
+    background: linear-gradient(to right, transparent calc(100% - 1px),
+    #C4C4C4, transparent calc(100% + 1px));
   }
   #floorButtons{
     margin-top: 5%;

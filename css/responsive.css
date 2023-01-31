@@ -20,22 +20,23 @@
 @media (max-width: 1200px) and (min-width: 993px) 
 {  
     body{
-        aspect-ratio: 4/3;
-      }  
+      aspect-ratio: 16/9;
+    }  
     
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (max-width: 1440px) and (min-width: 1201px)  
 { 
-    body{
-    aspect-ratio: 4/3;
+  body{
+    aspect-ratio: 16/9;
   }  
 }
 
 /* Large Screen 4k */
 @media (min-width: 2100px)
-{     body{
-    aspect-ratio: 4/3;
+{
+  body{
+    aspect-ratio: 16/9;
   } 
 }
